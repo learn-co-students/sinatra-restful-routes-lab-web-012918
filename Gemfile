@@ -1,3 +1,4 @@
+
 source 'http://rubygems.org'
 
 gem 'activerecord', :require => 'active_record'
@@ -10,6 +11,7 @@ gem 'rake'
 gem 'require_all'
 gem 'shotgun'
 gem 'json', '>=1.8.3'
+gem 'pry'
 
 group :test do
   gem 'rspec'
